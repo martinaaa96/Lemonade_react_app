@@ -1,4 +1,5 @@
 import "./App.css";
+
 import Header from "./components/Header";
 
 function App() {
@@ -6,6 +7,8 @@ function App() {
     <>
       <main className="App">
         <Header />
+
+        <div className="bg-indigo-600 w-full h-screen"></div>
       </main>
     </>
   );
