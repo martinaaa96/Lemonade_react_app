@@ -15,7 +15,7 @@ export default function Home() {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <div className="bg-white rounded-lg shadow-lg">
               <img
-                src="../../public/homemade-lemonade-7.jpg"
+                src="/homemade-lemonade-7.jpg"
                 alt="Property"
                 className="w-full max-h-64 object-cover rounded-t-lg h-1/3 md:h-64"
               />

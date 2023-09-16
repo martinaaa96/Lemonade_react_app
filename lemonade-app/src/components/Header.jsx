@@ -15,7 +15,7 @@ export default function Header() {
             <div className="mb-0 lg:mb-0 flex items-center gap-1">
               <img
                 className="w-15 h-10"
-                src="../../public/logo.jpg"
+                src="/logo.jpg"
                 alt="logo"
               />
             </div>
