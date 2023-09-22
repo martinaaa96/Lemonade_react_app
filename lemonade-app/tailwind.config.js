@@ -4,14 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {screens: {
-    'sm': '490px',
-   
-
-    'md': '730px',
-   
-
-    'lg': '1440px',
+  theme: {
    
   },
     
@@ -22,5 +15,5 @@ export default {
   
   plugins: [],
 }
-}
+
 
