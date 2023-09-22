@@ -12,8 +12,8 @@ export default function Header() {
 
   return (
     <>
-      <div className="shadow-md w-full fixed top-0 left-0">
-        <div className="md:px-10 py-4 px-7 md:flex justify-between items-center bg-white bg-white py-4 md:px-10 px-7">
+      <div className="shadow-md w-full fixed top-0 left-0 ">
+        <div className="md:px-10 py-4 px-7 md:flex justify-between items-cente bg-white">
           <Link to="/" className="mb-0 lg:mb-0 flex items-center gap-1">
             <img style={{ width: "100px" }} src="/logo.jpg" alt="logo" />
           </Link>
@@ -29,10 +29,11 @@ export default function Header() {
               open ? "top-12" : "top-[-490px]"
             }`}
           >
-            <Link to="/" className="font-semibold my-7 md:my-0 md:ml-8">
-              <li className="text-gray-800 hover:text-pink-400 duration-500">
-                Home
-              </li>
+            <Link
+              to="/"
+              className="text-gray-800 hover:text-pink-400 duration-500"
+            >
+              <li className="font-semibold my-7 md:my-0 md:ml-8">Home</li>
             </Link>
             <Link to="/menu" className="font-semibold my-7 md:my-0 md:ml-8">
               <li className="text-gray-800 hover:text-pink-400 duration-500">
