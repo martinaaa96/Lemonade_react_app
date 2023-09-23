@@ -24,7 +24,7 @@ export default function Header() {
             className={logo ? "hidden" : "block"}
             src="/logo.jpg"
             alt="logo"
-            style={{ width: "100px" }}
+            style={{ width: "100px"}}
           />
         </div>
         <ul className=" hidden md:flex">
