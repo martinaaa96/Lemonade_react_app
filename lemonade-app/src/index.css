@@ -9,7 +9,7 @@
       @apply font-[Poppins]
     }
     li{
-        @apply p-4
+        @apply p-4 text-xl
     }
    
 }

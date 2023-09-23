@@ -9,52 +9,87 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const [logo, setLogo] = useState(false);
 
+  const handleNav = () => {
+    setOpen(!open);
+    setLogo(!logo);
+  };
   return (
     <>
-      <div className="shadow-md w-full fixed top-0 left-0 ">
-        <div className="md:px-10 py-4 px-7 md:flex justify-between items-cente bg-white">
-          <Link to="/" className="mb-0 lg:mb-0 flex items-center gap-1">
-            <img style={{ width: "100px" }} src="/logo.jpg" alt="logo" />
-          </Link>
-
-          <div
-            onClick={() => setOpen(!open)}
-            className="absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7"
-          >
-            {open ? <HiXMark /> : <RiMenu3Fill />}
-          </div>
-          <ul
-            className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
-              open ? "top-12" : "top-[-490px]"
-            }`}
-          >
-            <Link
-              to="/"
-              className="text-gray-800 hover:text-pink-400 duration-500"
-            >
-              <li className="font-semibold my-7 md:my-0 md:ml-8">Home</li>
+      <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10">
+        <div>
+          <img
+            onClick={handleNav}
+            className={logo ? "hidden" : "block"}
+            src="/logo.jpg"
+            alt="logo"
+            style={{ width: "100px" }}
+          />
+        </div>
+        <ul className=" hidden md:flex">
+          <li className="text-gray-800 hover:text-pink-400 duration-500">
+            <Link to="/" className="my-7 md:my-0 md:ml-8">
+              Home
             </Link>
-            <Link to="/menu" className="font-semibold my-7 md:my-0 md:ml-8">
-              <li className="text-gray-800 hover:text-pink-400 duration-500">
-                Menu
-              </li>
+          </li>
+          <li className="text-gray-800 hover:text-pink-400 duration-500">
+            <Link to="/about" className="my-7 md:my-0 md:ml-8">
+              About
             </Link>
-            <Link to="/about" className="font-semibold my-7 md:my-0 md:ml-8">
-              <li className="text-gray-800 hover:text-pink-400 duration-500">
+          </li>
+          <li className="text-gray-800 hover:text-pink-400 duration-500">
+            <Link to="/menu" className="my-7 md:my-0 md:ml-8">
+              Menu
+            </Link>
+          </li>
+          <li className="text-gray-800 hover:text-pink-400 duration-500">
+            <Link to="/contact" className="my-7 md:my-0 md:ml-8">
+              Contact
+            </Link>
+          </li>
+          <li className="text-gray-800 hover:text-pink-400 duration-500"></li>
+        </ul>
+        <div className="hidden md:flex">
+          <LuShoppingCart
+            size={20}
+            className=" mr-5 my-7 md:my-0 md:ml-8 hover:text-pink-400 duration-500 "
+          />
+        </div>
+        <div onClick={handleNav} className="md:hidden z-10">
+          {open ? <HiXMark size={20} /> : <RiMenu3Fill size={20} />}
+        </div>
+        <div
+          onClick={handleNav}
+          className={
+            open
+              ? "absolute left-0 top-0 w-full bg-pink-100/90 px-4 py-7 flex flex-col"
+              : "absolute left-[-100%]"
+          }
+        >
+          <ul>
+            <img src="/logo.jpg" alt="logo" style={{ width: "100px" }} />
+            <li className="text-gray-800 border-b hover:text-pink-400 duration-500">
+              <Link to="/" className="my-7 md:my-0 md:ml-8">
+                Home
+              </Link>
+            </li>
+            <li className="text-gray-800 border-b hover:text-pink-400 duration-500">
+              <Link to="/about" className="my-7 md:my-0 md:ml-8">
                 About
-              </li>
-            </Link>
-            <Link to="/contact" className="font-semibold my-7 md:my-0 md:ml-8">
-              <li className="text-gray-800 hover:text-pink-400 duration-500">
+              </Link>
+            </li>
+            <li className="text-gray-800 border-b hover:text-pink-400 duration-500">
+              <Link to="/menu" className="my-7 md:my-0 md:ml-8">
+                Menu
+              </Link>
+            </li>
+            <li className="text-gray-800 border-b hover:text-pink-400 duration-500">
+              <Link to="/contact" className="my-7 md:my-0 md:ml-8">
                 Contact
-              </li>
-            </Link>
-            <Link to="/shop">
-              <button>
-                <LuShoppingCart className="my-7 md:my-0 md:ml-8 hover:text-pink-400 duration-500 " />
-              </button>
-            </Link>
+              </Link>
+            </li>
+            <li className="text-gray-800 border-b hover:text-pink-400 duration-500"></li>
           </ul>
         </div>
       </div>
