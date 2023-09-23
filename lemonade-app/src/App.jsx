@@ -6,11 +6,11 @@ import Home from "./components/Home";
 
 function App() {
   return (
-    <>
-      <Home />
+    <div>
       <Header />
+      <Home />
       <Footer />
-    </>
+    </div>
   );
 }
 
