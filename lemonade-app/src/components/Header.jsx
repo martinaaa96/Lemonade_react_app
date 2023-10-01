@@ -19,7 +19,7 @@ export default function Header() {
     <>
       <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10">
         <div>
-          <Link>
+          <Link to="/">
             <img
               onClick={handleNav}
               className={logo ? "hidden" : "block"}

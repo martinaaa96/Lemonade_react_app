@@ -9,7 +9,12 @@ export default function Footer() {
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
               <Link className="flex items-center">
-                <img src="/logo.jpg" alt="logo" style={{ width: "100px" }} />
+                <img
+                  className="hover:scale-110 duration-500"
+                  src="/logo.jpg"
+                  alt="logo"
+                  style={{ width: "100px" }}
+                />
               </Link>
             </div>
           </div>
@@ -20,8 +25,8 @@ export default function Footer() {
               Rights Reserved.
             </span>
             <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
-              <SiFacebook className="text-gray-500 hover:text-gray-900 dark:hover:text-white" />
-              <FiInstagram className="text-gray-500 hover:text-gray-900 dark:hover:text-white" />
+              <SiFacebook className="text-gray-500 hover:text-gray-900 dark:hover:text-white hover:scale-110 duration-500" />
+              <FiInstagram className="text-gray-500 hover:text-gray-900 dark:hover:text-white hover:scale-110 duration-500" />
             </div>
           </div>
         </div>
