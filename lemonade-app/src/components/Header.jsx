@@ -19,15 +19,7 @@ export default function Header() {
     <>
       <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10">
         <div>
-          <Link to="/">
-            <img
-              onClick={handleNav}
-              className={logo ? "hidden" : "block"}
-              src="/logo.jpg"
-              alt="logo"
-              style={{ width: "100px" }}
-            />
-          </Link>
+          
         </div>
         <ul className=" hidden md:flex">
           <li className="text-gray-800 hover:text-pink-400 duration-500">
