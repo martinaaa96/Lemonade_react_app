@@ -37,36 +37,35 @@ export default function Contact() {
               <input
                 type="text"
                 placeholder="Вашите имена"
-                className="px-2 py-3 bg-transparent text-white w-full text-sm border-b border-gray-400 focus:border-white outline-none"
+                className="px-2 py-3 bg-transparent text-black w-full text-sm border-b border-gray-400 focus:border-white outline-none"
               />
 
               <input
-                type="number"
+                type="text"
                 placeholder="телефонен номер"
-                className="px-2 py-3 bg-transparent text-white w-full text-sm border-b border-gray-400 focus:border-white outline-none"
+                className="px-2 py-3 bg-transparent text-black w-full text-sm border-b border-gray-400 focus:border-white outline-none"
               />
 
               <input
                 type="email"
                 placeholder="имейл адрес"
-                className="px-2 py-3 bg-transparent text-white w-full text-sm border-b border-gray-400 focus:border-white outline-none"
+                className="px-2 py-3 bg-transparent text-black w-full text-sm border-b border-gray-400 focus:border-white outline-none"
               />
 
               <textarea
                 placeholder="Напиши съобщение"
-                className="px-2 pt-3 bg-transparent text-white w-full text-sm border-b border-gray-400 focus:border-white outline-none"
+                className="px-2 pt-3 bg-transparent text-black w-full text-sm border-b border-gray-400 focus:border-white outline-none"
               ></textarea>
             </div>
             <button
               type="button"
-              className="mt-8 flex items-center justify-center text-sm w-full rounded px-4 py-2.5 font-semibold bg-yellow-600 text-white hover:bg-blue-700"
+              className="mt-8 flex items-center justify-center text-sm w-full rounded px-4 py-2.5 font-semibold bg-yellow-500 hover:text-black duration-500 text-white"
             >
               Изпращане
             </button>
           </form>
         </div>
       </div>
-      <div className="bg-yellow-800 rounded-3xl lg:col-span-2 p-10 max-sm:px-6 flex flex-col justify-center max-md:mt-12"></div>
     </div>
   );
 }
