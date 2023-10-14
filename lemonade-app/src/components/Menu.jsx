@@ -56,8 +56,8 @@ export default function Menu() {
             <p className="text-gray-600">Description of Product 1.</p>
             <p className="text-blue-500 font-semibold mt-2">Price: 19.99</p>
           </div>
+          <button className="text-center">Load</button>
         </div>
-        <button className="">Load</button>
       </div>
     </>
   );
