@@ -3,7 +3,7 @@ import lemonadevideo from "../assets/lemonadevideo.mp4";
 export default function Home() {
   return (
     <>
-      <div className="w-full h-screen relative">
+      <div className="w-full h-screen relative font-serif">
         <video
           className="w-full h-full object-cover"
           src={lemonadevideo}
@@ -16,8 +16,10 @@ export default function Home() {
           <h1 className="py-4 text-3xl animate-fade-down">
             Homemade Lemonade and Smoothies
           </h1>
-          <h2 className="animate-fade-up">All recipes and location store</h2>
-          <div className="flex justify-between items-center">
+          <h2 className="animate-fade-up ">
+            All recipes and location store
+          </h2>
+          <div className="flex justify-between items-center ">
             <button className="bg-yellow-500 hover:text-black duration-500 text-white my-7 py-2 px-4 rounded-full">
               Menu
             </button>
