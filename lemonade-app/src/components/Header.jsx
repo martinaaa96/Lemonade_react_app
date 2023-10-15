@@ -19,13 +19,13 @@ export default function Header() {
     <>
       <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10 font-serif">
         <div>
-          <Link to="/" className="my-7 md:my-0 md:ml-8">
+          <Link to="/home" className="my-7 md:my-0 md:ml-8">
             <img src="/logo.jpg" alt="logo" style={{ width: "100px" }} />
           </Link>
         </div>
         <ul className=" hidden md:flex">
           <li className="text-gray-800 hover:text-pink-400 duration-500">
-            <Link to="/" className="my-7 md:my-0 md:ml-8">
+            <Link to="/home" className="my-7 md:my-0 md:ml-8">
               Home
             </Link>
           </li>
@@ -39,11 +39,7 @@ export default function Header() {
               Menu
             </Link>
           </li>
-          <li className="text-gray-800 hover:text-pink-400 duration-500">
-            <Link to="/contact" className="my-7 md:my-0 md:ml-8">
-              Contact
-            </Link>
-          </li>
+
           <li className="text-gray-800 hover:text-pink-400 duration-500"></li>
         </ul>
         <div className="hidden md:flex">
@@ -80,11 +76,7 @@ export default function Header() {
                 Menu
               </Link>
             </li>
-            <li className="text-gray-800 border-b hover:text-pink-400 duration-500">
-              <Link to="/contact" className="my-7 md:my-0 md:ml-8">
-                Contact
-              </Link>
-            </li>
+
             <li className="text-gray-800 border-b hover:text-pink-400 duration-500"></li>
           </ul>
         </div>
