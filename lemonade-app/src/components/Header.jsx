@@ -18,7 +18,11 @@ export default function Header() {
   return (
     <>
       <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10 font-serif">
-        <div></div>
+        <div>
+          <Link to="/" className="my-7 md:my-0 md:ml-8">
+            <img src="/logo.jpg" alt="logo" style={{ width: "100px" }} />
+          </Link>
+        </div>
         <ul className=" hidden md:flex">
           <li className="text-gray-800 hover:text-pink-400 duration-500">
             <Link to="/" className="my-7 md:my-0 md:ml-8">
