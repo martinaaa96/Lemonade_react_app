@@ -17,6 +17,31 @@ export default function Footer() {
                 />
               </Link>
             </div>
+            <div className="md:flex md:justify-between">
+              <div className="space-y-10 ml-4">
+                <div className="flex flex-col">
+                  <p className="text-[#333] text-xl font-semibold">Work Time</p>
+                  <p className="text-md">Monday to Friday</p>
+                  <p className="text-sm font-semibold mt-4">8:00-18:00</p>
+                </div>
+              </div>
+              <div className="space-y-10 ml-4">
+                <div className="flex flex-col">
+                  <p className="text-[#333] text-xl font-semibold">Address</p>
+                  <p className="text-sm">Sofia</p>
+                  <p className="text-sm font-semibold mt-4">bul. Bulgaria 3</p>
+                </div>
+              </div>
+              <div className="space-y-10 ml-4">
+                <div className="flex flex-col">
+                  <p className="text-[#333] text-xl font-semibold">Contacts</p>
+                  <p className="text-sm">Email: gldo.gllh@frs.bg</p>
+                  <p className="text-sm font-semibold mt-4">
+                    Tel: +359 556 663 255
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <div className="sm:flex sm:items-center sm:justify-between">
