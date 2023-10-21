@@ -7,7 +7,11 @@ import Home from "./components/Home";
 import Menu from "./components/Menu";
 import About from "./components/About";
 import Error from "./components/Error";
+
 function App() {
+
+
+
   return (
     <div>
       <Header />
@@ -16,7 +20,7 @@ function App() {
       <About />
       <Footer />
       <Routes>
-        <Route path="/*" element={<Error />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </div>
   );

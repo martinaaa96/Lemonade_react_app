@@ -105,7 +105,7 @@ export const data = [
     },
     {
         id: 12,
-        nname: 'Banana',
+        name: 'Banana',
         category: 'smoothie',
         ingredients: 'milk,bananas,honey,ice',
         image: '/lemonade-app/public/Peanut-Butter-Banana-Smoothie-recipe.webp',
