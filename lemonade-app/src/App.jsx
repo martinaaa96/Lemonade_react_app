@@ -9,9 +9,6 @@ import About from "./components/About";
 import Error from "./components/Error";
 
 function App() {
-
-
-
   return (
     <div>
       <Header />

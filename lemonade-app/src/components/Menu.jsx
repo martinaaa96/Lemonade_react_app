@@ -6,6 +6,7 @@ import { data } from "../data";
 
 export default function Menu() {
   const products = data;
+  console.log(data);
   return (
     <>
       <div className="container mx-auto p-4 font-serif">
@@ -29,6 +30,7 @@ export default function Menu() {
           </div>
         </div>
         {products.map((product) => {
+      
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-5">
             <div className="bg-white rounded-lg shadow-md p-4">
               <img
