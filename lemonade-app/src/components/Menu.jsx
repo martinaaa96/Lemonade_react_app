@@ -2,11 +2,10 @@
 //import watermelon from "/watermelon.jpg";
 //import blueberry from "/blueberry.jpg";
 //import lemonade from "/lemonade.jpg";
-import { data } from "../data";
+import {data} '../data'
 
 export default function Menu() {
-  const products = data;
-  console.log(data);
+
   return (
     <>
       <div className="container mx-auto p-4 font-serif">
@@ -34,17 +33,17 @@ export default function Menu() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-5">
             <div className="bg-white rounded-lg shadow-md p-4">
               <img
-                src={product.image}
-                alt={`${product.id}`}
+                src={products.image}
+                alt={`${products.id}`}
                 className="w-full max-w-xs object-cover mb-2 hover:scale-110 duration-500"
               />
-              <h2 className="text-lg font-semibold">{product.name}</h2>
-              <p className="text-gray-600">Category: {product.category}</p>
+              <h2 className="text-lg font-semibold">{products.name}</h2>
+              <p className="text-gray-600">Category: {products.category}</p>
               <p className="text-gray-600">
                 Ingredients: {product.ingredients}
               </p>
               <p className="text-blue-500 font-semibold mt-2">
-                Price: {product.price}
+                Price: {products.price}
               </p>
             </div>
           </div>;
