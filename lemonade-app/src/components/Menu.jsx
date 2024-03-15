@@ -2,9 +2,11 @@
 //import watermelon from "/watermelon.jpg";
 //import blueberry from "/blueberry.jpg";
 //import lemonade from "/lemonade.jpg";
-import {data} '../data'
+import { data } from "../data";
 
 export default function Menu() {
+  const products = [...data];
+  console.log(products);
 
   return (
     <>
@@ -29,7 +31,6 @@ export default function Menu() {
           </div>
         </div>
         {products.map((product) => {
-      
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-5">
             <div className="bg-white rounded-lg shadow-md p-4">
               <img
