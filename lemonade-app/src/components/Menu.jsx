@@ -5,8 +5,8 @@
 import { data } from "../data";
 
 export default function Menu() {
-  const products = [...data];
-  console.log(products);
+  const products = data;
+  console.log(products.name);
 
   return (
     <>
