@@ -5,7 +5,7 @@ export const data = [
         name: 'Blueberry',
         category: 'lemonade',
         ingredients: 'water,sugar,blueberries,freshly squeezed lemon juice,ice',
-        image: '/lemonade-app/public/blueberry.jpg',
+        image: '/public/blueberry.jpg',
         price: '10',
 
     },
@@ -14,7 +14,7 @@ export const data = [
         name: 'Strawberry',
         category: 'lemonade',
         ingredients: 'water,sugar,strawberries,freshly squeezed lemon juice,ice',
-        image: '/lemonade-app/public/strawberry.jpg',
+        image: '/public/strawberry.jpg',
         price: '12',
 
 
@@ -24,16 +24,16 @@ export const data = [
         name: 'Watermelon',
         category: 'lemonade',
         ingredients: 'water,sugar,watermelon,freshly squeezed lemon juice,ice',
-        image: '/lemonade-app/public/watermelon.jpg',
+        image: '/public/watermelon.jpg',
         price: '13',
 
     },
     {
         id: 4,
-        name: 'Lemonade',
+        name: 'Classic Lemonade',
         category: 'lemonade',
         ingredients: 'water,sugar,freshly squeezed lemon juice,ice',
-        image: '/lemonade-app/public/lemonade.jpg',
+        image: '/public/lemonade.jpg',
         price: '8',
 
     },
@@ -42,7 +42,7 @@ export const data = [
         name: 'Blueberry',
         category: 'lemonade',
         ingredients: 'water,sugar,blueberries,freshly squeezed lemon juice,ice',
-        image: '/lemonade-app/public/blueberry.jpg',
+        image: '/public/blueberry.jpg',
         price: '10',
 
     },
@@ -51,7 +51,7 @@ export const data = [
         name: 'Strawberry',
         category: 'lemonade',
         ingredients: 'water,sugar,strawberries,freshly squeezed lemon juice,ice',
-        image: '/lemonade-app/public/strawberry.jpg',
+        image: '/public/strawberry.jpg',
         price: '10',
 
 
@@ -61,7 +61,7 @@ export const data = [
         name: 'Banana',
         category: 'smoothie',
         ingredients: 'milk,bananas,honey,ice',
-        image: '/lemonade-app/public/blueberry.jpg',
+        image: '/public/bananasmothie.jpg',
         price: '10',
 
     },
@@ -70,7 +70,7 @@ export const data = [
         name: 'Forest fruits',
         category: 'smoothie',
         ingredients: 'milk,forest fruits,honey,ice',
-        image: '/lemonade-app/public/forest_frozen-fruit-smoothie.jpg',
+        image: '/public/forest_frozen-fruit-smoothie.jpg',
         price: '10',
 
     },
@@ -79,7 +79,7 @@ export const data = [
         name: 'Blueberry',
         category: 'smoothie',
         ingredients: 'milk,blueberries,honey,ice',
-        image: '/lemonade-app/public/blueberry-smoothie-5.jpg',
+        image: '/public/blueberry-smoothie-5.jpg',
         price: '10',
 
     },
@@ -88,7 +88,7 @@ export const data = [
         name: 'Strawberry banana',
         category: 'smoothie',
         ingredients: 'milk,strawberries,bananas,honey,ice',
-        image: '/lemonade-app/public/strawberry-banana-smoothie.jpeg',
+        image: '/public/strawberry-banana-smoothie.jpeg',
         price: '10',
 
 
@@ -98,7 +98,7 @@ export const data = [
         name: 'Forest fruits',
         category: 'smoothie',
         ingredients: 'milk,forest fruits,honey,ice',
-        image: '/lemonade-app/public/forest_frozen-fruit-smoothie.jpg',
+        image: '/public/forest_frozen-fruit-smoothie.jpg',
         price: '10',
 
 
@@ -108,8 +108,9 @@ export const data = [
         name: 'Banana',
         category: 'smoothie',
         ingredients: 'milk,bananas,honey,ice',
-        image: '/lemonade-app/public/Peanut-Butter-Banana-Smoothie-recipe.webp',
+        image: '/public/Peanut-Butter-Banana-Smoothie-recipe.webp',
         price: '10',
 
     }
 ]
+
