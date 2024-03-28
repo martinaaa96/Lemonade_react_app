@@ -7,13 +7,14 @@ import Home from "./components/Home";
 import Menu from "./components/Menu";
 import About from "./components/About";
 import Error from "./components/Error";
+import { ProductProvider } from "./context/ProductContext";
 
 function App() {
   return (
     <div>
       <Header />
       <Home />
-      <Menu />
+
       <About />
       <Footer />
       <Routes>
