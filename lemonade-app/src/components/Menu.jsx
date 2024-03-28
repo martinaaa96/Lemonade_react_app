@@ -1,8 +1,10 @@
-import { data } from "../utils/data";
+//import { data } from "../utils/data";
+import { ProductProvider } from "../context/ProductContext";
+import MenuItem from "./MenuItem";
 
 export default function Menu() {
   return (
-    <>
+    <ProductProvider>
       <div className="container mx-auto p-4 font-serif">
         <div className="mb-4 text-center">
           <h1 className="text-2xl font-semibold ">Our Products</h1>
@@ -23,31 +25,8 @@ export default function Menu() {
             </select>
           </div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-5">
-          {data.map((product) => (
-            <div key={product.id} className="bg-white rounded-lg shadow-md p-4">
-              <img
-                src={product.image}
-                className="w-full max-w-xs object-cover mb-2 hover:scale-110 duration-500"
-              />
-              <h2 className="text-lg font-semibold">{product.name}</h2>
-              <p className="text-gray-600">Category: {product.category}</p>
-              <p className="text-gray-600">
-                Ingredients: {product.ingredients}
-              </p>
-              <p className="text-blue-500 font-semibold mt-2">
-                Price: {product.price}
-              </p>
-            </div>
-          ))}
-        </div>
-
-        <div className="flex justify-center font-serif ">
-          <button className="bg-yellow-500 hover:text-black duration-500 text-white my-7 py-2 px-4 rounded-full ">
-            Load
-          </button>
-        </div>
+        <MenuItem />
       </div>
-    </>
+    </ProductProvider>
   );
 }
