@@ -1,11 +1,8 @@
 import { LuShoppingCart } from "react-icons/lu";
-//import { BsSearch } from "react-icons/bs";
 import { RiMenu3Fill } from "react-icons/ri";
 import { HiXMark } from "react-icons/hi2";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
-//import React from "react";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -20,7 +17,12 @@ export default function Header() {
       <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10 font-serif">
         <div>
           <Link to="/home" className="my-7 md:my-0 md:ml-8">
-            <img src="/logo.jpg" alt="logo" style={{ width: "100px" }} />
+            <img
+              src="/logo.png"
+              alt="logo"
+              className="hover:scale-110 duration-500"
+              style={{ width: "100px" }}
+            />
           </Link>
         </div>
         <ul className=" hidden md:flex">

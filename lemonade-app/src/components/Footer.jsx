@@ -11,7 +11,7 @@ export default function Footer() {
               <Link className="flex items-center">
                 <img
                   className="hover:scale-110 duration-500"
-                  src="/logo.jpg"
+                  src="/logo.png"
                   alt="logo"
                   style={{ width: "100px" }}
                 />
@@ -37,9 +37,9 @@ export default function Footer() {
               <div className="space-y-10 ml-4">
                 <div className="flex flex-col">
                   <p className="text-[#333] text-xl font-semibold ">Contacts</p>
-                  <p className="text-sm ">Email: gldo.gllh@frs.bg</p>
+                  <p className="text-sm ">Email: lemonade@gmail.com</p>
                   <p className="text-sm font-semibold mt-4 ">
-                    Tel: +359 556 663 255
+                    Tel: +359 888 663 255
                   </p>
                 </div>
               </div>
