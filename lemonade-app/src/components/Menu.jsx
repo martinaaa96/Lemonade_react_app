@@ -13,6 +13,7 @@ export default function Menu() {
     setShowProducts((firstProducts) => firstProducts - 4);
     setHideProducts((lastProduct) => lastProduct - 4);
   };
+
   return (
     <>
       <div className="container mx-auto p-4 font-serif">
@@ -25,9 +26,11 @@ export default function Menu() {
               Sort By:
             </label>
             <select
-              id="sort-select"
+              name="sort"
+              id="sort"
               className="text-black border border-black "
             >
+              <option value="none">None</option>
               <option value="price-asc">Price Low to High</option>
               <option value="price-desc">Price High to Low</option>
               <option value="name-asc">A to Z</option>
@@ -54,7 +57,6 @@ export default function Menu() {
           ))}
         </div>
 
-       
         {hideProducts > 0 && (
           <div className="flex justify-center font-serif">
             <button
@@ -66,7 +68,7 @@ export default function Menu() {
           </div>
         )}
 
-         {showProducts < data.length && (
+        {showProducts < data.length && (
           <div className="flex justify-center font-serif">
             <button
               className="bg-yellow-500 hover:text-black duration-500 text-white my-7 py-2 px-4 rounded-full"
