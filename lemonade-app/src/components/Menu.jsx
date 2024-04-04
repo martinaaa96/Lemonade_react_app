@@ -16,7 +16,7 @@ export default function Menu() {
 
   return (
     <>
-      <div className="container mx-auto p-4 font-serif">
+      <div className="container mx-auto p-20 font-serif">
         <div className="mb-4 text-center">
           <h1 className="text-2xl font-semibold ">Our Products</h1>
         </div>
