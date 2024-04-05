@@ -13,6 +13,7 @@ function App() {
   return (
     <div>
       <Header />
+      
       <Routes>
         <Route path="/" element={<Home />} />
 
@@ -21,6 +22,7 @@ function App() {
 
         <Route path="/*" element={<Error />} />
       </Routes>
+
       <Footer />
     </div>
   );
