@@ -37,7 +37,7 @@ export default function Header() {
             </Link>
           </li>
           <li className="text-gray-800 hover:text-pink-400 duration-500">
-            <Link to="/menu" className="my-7 md:my-0 md:ml-8">
+            <Link to="/catalog" className="my-7 md:my-0 md:ml-8">
               Menu
             </Link>
           </li>
@@ -74,7 +74,7 @@ export default function Header() {
               </Link>
             </li>
             <li className="text-gray-800 border-b hover:text-pink-400 duration-500">
-              <Link to="/menu" className="my-7 md:my-0 md:ml-8">
+              <Link to="/catalog" className="my-7 md:my-0 md:ml-8">
                 Menu
               </Link>
             </li>
