@@ -6,7 +6,7 @@ export const data = [
         category: 'lemonade',
         ingredients: 'water,sugar,blueberries,freshly squeezed lemon juice,ice',
         image: '/blueberry.jpg',
-        price: '10 $',
+        price: '10',
 
     },
     {
@@ -15,7 +15,7 @@ export const data = [
         category: 'lemonade',
         ingredients: 'water,sugar,strawberries,freshly squeezed lemon juice,ice',
         image: '/strawberry.jpg',
-        price: '12 $',
+        price: '12',
 
 
     },
@@ -25,7 +25,7 @@ export const data = [
         category: 'lemonade',
         ingredients: 'water,sugar,watermelon,freshly squeezed lemon juice,ice',
         image: '/watermelon.jpg',
-        price: '13 $',
+        price: '13',
 
     },
     {
@@ -34,7 +34,7 @@ export const data = [
         category: 'lemonade',
         ingredients: 'water,sugar,freshly squeezed lemon juice,ice',
         image: '/lemonade.jpg',
-        price: '8 $',
+        price: '8',
 
     },
     {
@@ -43,7 +43,7 @@ export const data = [
         category: 'lemonade',
         ingredients: 'water,sugar,blueberries,freshly squeezed lemon juice,ice',
         image: '/blueberry.jpg',
-        price: '10 $',
+        price: '10',
 
     },
     {
@@ -52,7 +52,7 @@ export const data = [
         category: 'lemonade',
         ingredients: 'water,sugar,strawberries,freshly squeezed lemon juice,ice',
         image: '/strawberry.jpg',
-        price: '10 $',
+        price: '10',
 
 
     },
@@ -62,7 +62,7 @@ export const data = [
         category: 'smoothie',
         ingredients: 'milk,bananas,honey,ice',
         image: '/bananasmothie.jpg',
-        price: '10 $',
+        price: '10',
 
     },
     {
@@ -71,7 +71,7 @@ export const data = [
         category: 'smoothie',
         ingredients: 'milk,forest fruits,honey,ice',
         image: '/forest_frozen-fruit-smoothie.jpg',
-        price: '10 $',
+        price: '10',
 
     },
     {
@@ -80,7 +80,7 @@ export const data = [
         category: 'smoothie',
         ingredients: 'milk,blueberries,honey,ice',
         image: '/blueberry-smoothie-5.jpg',
-        price: '10 $',
+        price: '10',
 
     },
     {
@@ -89,7 +89,7 @@ export const data = [
         category: 'smoothie',
         ingredients: 'milk,strawberries,bananas,honey,ice',
         image: '/strawberry-banana-smoothie.jpeg',
-        price: '10 $',
+        price: '10',
 
 
     },
@@ -99,7 +99,7 @@ export const data = [
         category: 'smoothie',
         ingredients: 'milk,forest fruits,honey,ice',
         image: '/forest_frozen-fruit-smoothie.jpg',
-        price: '10 $',
+        price: '10',
 
 
     },
@@ -109,7 +109,7 @@ export const data = [
         category: 'smoothie',
         ingredients: 'milk,bananas,honey,ice',
         image: '/bananasmothie.jpg',
-        price: '10 $',
+        price: '10',
 
     }
 ]
