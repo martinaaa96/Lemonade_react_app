@@ -1,6 +1,9 @@
-import React from "react";
+import { useContext } from "react";
+import { ProductContext } from "../context/productContext";
 
 export default function CatalogItem({ product }) {
+  const { addToCart } = useContext(ProductContext);
+
   return (
     <div key={product.id} className="bg-white rounded-lg shadow-md p-4">
       <img
@@ -13,7 +16,10 @@ export default function CatalogItem({ product }) {
       <p className="text-gray-600">Ingredients:{product.ingredients}</p>
       <p className="text-blue-500 font-semibold mt-2">
         Price: {product.price} $
-        <button className="bg-pink-700 hover:text-black duration-500 text-white my-7 py-1 px-2 rounded-full">
+        <button
+          onClick={() => addToCart(product)}
+          className="bg-pink-700 hover:text-black duration-500 text-white my-7 py-1 px-2 rounded-full"
+        >
           Add to cart
         </button>
       </p>

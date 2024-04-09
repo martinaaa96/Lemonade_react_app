@@ -1,13 +1,15 @@
 import { LuShoppingCart } from "react-icons/lu";
 import { RiMenu3Fill } from "react-icons/ri";
 import { HiXMark } from "react-icons/hi2";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
+import { ProductContext } from "../context/productContext";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
   const [logo, setLogo] = useState(false);
 
+  const { cart } = useContext(ProductContext);
   const handleNav = () => {
     setOpen(!open);
     setLogo(!logo);
@@ -49,6 +51,7 @@ export default function Header() {
             size={20}
             className=" mr-5 my-7 md:my-0 md:ml-8 hover:text-pink-400 duration-500 "
           />
+          <span>{cart.length}</span>
         </div>
         <div onClick={handleNav} className="md:hidden z-10">
           {open ? <HiXMark size={20} /> : <RiMenu3Fill size={20} />}

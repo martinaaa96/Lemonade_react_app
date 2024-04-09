@@ -15,6 +15,8 @@ export default function Catalog() {
   const handleSortChange = (e) => {
     setSortBy(e.target.value);
   };
+
+  
   return (
     <>
       <div className="container mx-auto p-20 font-serif">

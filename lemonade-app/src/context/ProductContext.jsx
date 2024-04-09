@@ -39,6 +39,12 @@ export const ProductProvider = ({ children }) => {
     setProducts(sortedProducts);
   };
 
+  const [cart, setToCart] = useState([]);
+
+  const addToCart = (productAdd) => {
+    setToCart(...cart, productAdd);
+  };
+
   const contextValues = {
     data: products,
     showProducts,
@@ -46,6 +52,8 @@ export const ProductProvider = ({ children }) => {
     loadButton,
     backButton,
     setSortBy: sortProducts,
+    cart,
+    addToCart,
   };
 
   return (
