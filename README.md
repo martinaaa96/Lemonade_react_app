@@ -25,7 +25,7 @@ This project utilizes the following technologies and tools:
 
 React: An open-source JavaScript framework for building user interfaces.\
 Vite: A fast development environment for modern web applications in JavaScript.\
-Tailwind CSS: A highly customizable, low-level CSS framework that facilitates designing and creating attractive interfaces.\
+Tailwind CSS: A highly customizable, low-level CSS framework that facilitates designing and creating attractive interfaces.
 
 ##  Features:
 
