@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import CatalogItem from "./CatalogItem";
-import { ProductContext } from "../context/ProductContext";
+import { ProductContext } from "../context/ProductContext"
 
 export default function Catalog() {
   const {
@@ -41,11 +41,14 @@ export default function Catalog() {
           </div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-5">
+       
           {data.slice(0, showProducts).map((product) => (
             <CatalogItem key={product.id} product={product} />
+            
           ))}
+           
         </div>
-
+       
         {hideProducts > 0 && (
           <div className="flex justify-center font-serif">
             <button
