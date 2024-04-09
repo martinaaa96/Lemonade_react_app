@@ -29,7 +29,7 @@ Tailwind CSS: A highly customizable, low-level CSS framework that facilitates de
 
 ##  Features:
 
-This project comes with the following features:\
+This project comes with the following features:
 
 Homepage: An uncomplicated element on the homepage to greet visitors.\
 About Page: A section of the page with information about the organization or initiative.\
