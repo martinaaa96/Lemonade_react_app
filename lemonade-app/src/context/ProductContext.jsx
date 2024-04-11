@@ -20,6 +20,7 @@ export const ProductProvider = ({ children }) => {
   const [products, setProducts] = useState(data);
 
   const [sortBy, setSortBy] = useState("none");
+
   const sortProducts = (sortedBy) => {
     let sortedProducts = [...products];
 
@@ -42,7 +43,7 @@ export const ProductProvider = ({ children }) => {
   const [cart, setToCart] = useState([]);
 
   const addToCart = (productAdd) => {
-    setToCart(...cart, productAdd);
+    setToCart([...cart, productAdd]);
   };
 
   const contextValues = {

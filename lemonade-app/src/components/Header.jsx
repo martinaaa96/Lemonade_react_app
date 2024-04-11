@@ -10,10 +10,12 @@ export default function Header() {
   const [logo, setLogo] = useState(false);
 
   const { cart } = useContext(ProductContext);
+
   const handleNav = () => {
     setOpen(!open);
     setLogo(!logo);
   };
+
   return (
     <>
       <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10 font-serif">
@@ -51,8 +53,13 @@ export default function Header() {
             size={20}
             className=" mr-5 my-7 md:my-0 md:ml-8 hover:text-pink-400 duration-500 "
           />
-          <span>{cart.length}</span>
+          {cart.length > 0 && (
+            <span className="bg-pink-500 text-white rounded-full px-2">
+              {cart.length}
+            </span>
+          )}
         </div>
+
         <div onClick={handleNav} className="md:hidden z-10">
           {open ? <HiXMark size={20} /> : <RiMenu3Fill size={20} />}
         </div>
