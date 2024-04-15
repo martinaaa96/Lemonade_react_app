@@ -42,4 +42,6 @@ Sorting: Users can sort products by various criteria (e.g., name, price), making
 ![Menu_page](https://github.com/martinaaa96/Lemonade_react_app/assets/111580293/3e4e43b9-67a7-4e15-b2de-489b4ffc35a9)
 
 ![Menu_page_2](https://github.com/martinaaa96/Lemonade_react_app/assets/111580293/b992262c-a488-42be-9270-822060b79d4b)
+![error_page](https://github.com/martinaaa96/Lemonade_react_app/assets/111580293/c89c70fe-a29e-460b-9556-e2ed7c39a717)
+
 
