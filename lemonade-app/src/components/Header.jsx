@@ -4,12 +4,13 @@ import { HiXMark } from "react-icons/hi2";
 import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 
+import { ProductContext } from "../context/productContext";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
   const [logo, setLogo] = useState(false);
 
-
+  const { cart } = useContext(ProductContext);
 
   const handleNav = () => {
     setOpen(!open);
