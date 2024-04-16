@@ -46,8 +46,6 @@ export default function Header() {
               Menu
             </Link>
           </li>
-
-          <li className="text-gray-800 hover:text-pink-400 duration-500"></li>
         </ul>
         <div className="hidden md:flex">
           <LuShoppingCart
