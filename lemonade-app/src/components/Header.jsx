@@ -87,8 +87,6 @@ export default function Header() {
                 Menu
               </Link>
             </li>
-
-            <li className="text-gray-800 border-b hover:text-pink-400 duration-500"></li>
           </ul>
         </div>
       </div>

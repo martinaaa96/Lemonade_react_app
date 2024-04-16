@@ -1,13 +1,12 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
-import { ProductProvider } from "../../lemonade-app/src/context/ProductContext";
+import { ProductProvider } from "/src/context/ProductContext";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Catalog from "./components/Catalog";
 import About from "./components/About";
 import Error from "./components/Error";
-//import { ProductProvider } from "./context/ProductContext";
 
 function App() {
   return (
