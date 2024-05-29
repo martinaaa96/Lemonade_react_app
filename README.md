@@ -10,7 +10,7 @@ Currently, two official plugins are available:
 React Vite Starter Project with Tailwind CSS.\
 This is a starter project built with React, Vite, and Tailwind CSS.
 
-Project is deployed at vercel :
+Project is deployed at vercel : https://lemonade-react-app.vercel.app/
 
 To run this project locally, follow the steps below:
 
