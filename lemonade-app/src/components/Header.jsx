@@ -4,7 +4,7 @@ import { HiXMark } from "react-icons/hi2";
 import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 
-import { ProductContext } from "../context/productContext";
+import { ProductContext } from "../context/ProductContext";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
