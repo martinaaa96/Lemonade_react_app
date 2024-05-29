@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { ProductContext } from "../context/productContext";
+import { ProductContext } from "../context/ProductContext";
 
 export default function CatalogItem({ product }) {
   const { addToCart } = useContext(ProductContext);
