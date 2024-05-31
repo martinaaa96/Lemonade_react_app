@@ -58,7 +58,6 @@ export default function Header() {
             </span>
           )}
         </div>
-
         <div onClick={handleNav} className="md:hidden z-10">
           {open ? <HiXMark size={20} /> : <RiMenu3Fill size={20} />}
         </div>
@@ -86,6 +85,17 @@ export default function Header() {
               <Link to="/catalog" className="my-7 md:my-0 md:ml-8">
                 Menu
               </Link>
+            </li>
+            <li>
+              <LuShoppingCart
+                size={20}
+                className=" mr-5 my-7 md:my-0 md:ml-8 hover:text-pink-400 duration-500 "
+              />
+              {cart.length > 0 && (
+                <span className="bg-pink-500 text-white rounded-full px-2">
+                  {cart.length}
+                </span>
+              )}
             </li>
           </ul>
         </div>
