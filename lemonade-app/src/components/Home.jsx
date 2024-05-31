@@ -19,7 +19,7 @@ export default function Home() {
           <h2 className="animate-fade-up ">All recipes and location store</h2>
           <div className="flex justify-between items-center ">
             <Link
-              to="/menu"
+              to="/catalog"
               className="bg-yellow-500 hover:text-black duration-500 text-white my-7 py-2 px-4 rounded-full"
             >
               Menu

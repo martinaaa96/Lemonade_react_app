@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Error() {
   return (
     <main className="grid min-h-full place-items-center bg-white px-6 py-24 sm:py-32 lg:px-8 font-serif">
@@ -10,12 +12,12 @@ export default function Error() {
           Sorry, we couldn’t find the page you’re looking for.
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
-          <a
-            href="#"
+          <Link
+            to="/"
             className="text-sm bg-yellow-500 hover:text-black duration-500 text-white my-7 py-2 px-4 rounded-full "
           >
             Go back home
-          </a>
+          </Link>
         </div>
       </div>
     </main>
