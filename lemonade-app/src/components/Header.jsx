@@ -70,7 +70,6 @@ export default function Header() {
           }
         >
           <ul>
-            <img src="/logo.png" alt="logo" style={{ width: "100px" }} />
             <li className="text-gray-800 border-b hover:text-pink-400 duration-500">
               <Link to="/" className="my-7 md:my-0 md:ml-8">
                 Home
