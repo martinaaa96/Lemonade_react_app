@@ -32,7 +32,7 @@ export const data = [
         id: 4,
         name: 'Classic Lemonade',
         category: 'lemonade',
-        ingredients: 'water,sugar,freshly squeezed lemon juice,ice',
+        ingredients: 'water,lemon slice,sugar,freshly lemon juice, ice',
         image: '/lemonade.jpg',
         price: '8',
 
@@ -60,7 +60,7 @@ export const data = [
         id: 7,
         name: 'Banana',
         category: 'smoothie',
-        ingredients: 'milk,bananas,honey,ice',
+        ingredients: 'milk,bananas,honey,peanut butter,ice',
         image: '/bananasmothie.jpg',
         price: '10',
 
