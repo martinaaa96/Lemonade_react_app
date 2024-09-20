@@ -31,13 +31,13 @@ export default function Footer() {
                 <div className="flex flex-col">
                   <p className="text-[#333] text-xl font-semibold ">Address</p>
                   <p className="text-sm ">Sofia</p>
-                  <p className="text-sm font-semibold mt-4 ">bul. Bulgaria 3</p>
+                  <p className="text-sm font-semibold mt-4 ">bul. Bulgaria 356</p>
                 </div>
               </div>
               <div className="space-y-10 ml-4">
                 <div className="flex flex-col">
                   <p className="text-[#333] text-xl font-semibold ">Contacts</p>
-                  <p className="text-sm ">Email: lemonade@gmail.com</p>
+                  <p className="text-sm ">Email: lemonademv@gmail.com</p>
                   <p className="text-sm font-semibold mt-4 ">
                     Tel: +359 888 663 255
                   </p>
