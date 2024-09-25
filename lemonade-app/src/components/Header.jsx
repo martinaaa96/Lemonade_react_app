@@ -71,17 +71,29 @@ export default function Header() {
         >
           <ul>
             <li className="text-gray-800 border-b hover:text-pink-400 duration-500">
-              <Link to="/" className="my-7 md:my-0 md:ml-8">
+              <Link
+                to="/"
+                className="my-7 md:my-0 md:ml-8 "
+                onClick={handleNav}
+              >
                 Home
               </Link>
             </li>
             <li className="text-gray-800 border-b hover:text-pink-400 duration-500">
-              <Link to="/about" className="my-7 md:my-0 md:ml-8">
+              <Link
+                to="/about"
+                className="my-7 md:my-0 md:ml-8"
+                onClick={handleNav}
+              >
                 About
               </Link>
             </li>
             <li className="text-gray-800 border-b hover:text-pink-400 duration-500">
-              <Link to="/catalog" className="my-7 md:my-0 md:ml-8">
+              <Link
+                to="/catalog"
+                className="my-7 md:my-0 md:ml-8"
+                onClick={handleNav}
+              >
                 Menu
               </Link>
             </li>
